@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f7f7f3;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.upload-container {
+    width: 100%;
+    max-width: 460px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #1f3c32;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+/* FORM */
+.id-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1f3c32;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #235c41;
+}
+
+/* UPLOAD BOX */
+.upload-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px dashed #cfcfcf;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.upload-box:hover {
+    border-color: #845ef7;
+}
+
+.upload-icon {
+    width: 60px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.upload-box p {
+    font-size: 14px;
+    color: #4b4b4b;
+}
+
+/* Hide file input */
+#idUpload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* IMAGE PREVIEW */
+.preview-image {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+/* BUTTON */
+.continue-btn {
+    width: 100%;
+    padding: 14px;
+    background: #235c41;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.continue-btn:hover {
+    background: #1a4734;
+}
