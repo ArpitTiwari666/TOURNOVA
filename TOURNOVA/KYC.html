@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify KYC – Tour Nova</title>
+    <link rel="stylesheet" href="kyc.css" />
+</head>
+
+<body>
+
+    <div class="kyc-container">
+
+        <div class="kyc-top">
+            <img src="https://i.ibb.co/jvsZHx5r/facebook-face-id.webp"" alt="KYC Illustration" class="kyc-illustration">
+        </div>
+
+        <h2 class="kyc-title">Let’s Verify Your Identity</h2>
+        <p class="kyc-subtitle">
+            Please upload the following documents to complete your secure verification.
+        </p>
+
+        <div class="kyc-list">
+
+            <div class="kyc-item" id="uploadValidId">
+
+                <div>
+                    <h3>Upload a valid ID</h3>
+                    <p>For verifying your government-issued identification document.</p>
+                </div>
+                <span class="arrow">›</span>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+<script>
+document.getElementById("uploadValidId").addEventListener("click", () => {
+    window.location.href = "upload-id.html";
+});
+</script>
